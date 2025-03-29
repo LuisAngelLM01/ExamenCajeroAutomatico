@@ -10,7 +10,7 @@ public class ExamenCajeroAutomaticoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ExamenCajeroAutomaticoApplication.class, args);
 	}
-
+	//http://localhost:8080/atm/login?logout
 	//http://localhost:8080/atm/home
 	//http://localhost:8080/atm/denominaciones
 }

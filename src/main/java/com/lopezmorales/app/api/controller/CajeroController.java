@@ -19,7 +19,12 @@ public class CajeroController {
 	@Autowired
     private CajeroService atmService;
 
-	@GetMapping("/home")
+    @GetMapping("/login")
+    public String loginPage() {
+        return "login";
+    }
+
+    @GetMapping("/home")
     public String getHomePage() {
         return "index";
     }
